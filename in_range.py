@@ -17,7 +17,7 @@ def in_range(nums, lowest, highest):
 
     # YOUR CODE HERE
     for x in nums:
-      if range(lowest, highest+1).__contains__(x):
+      if x in range(lowest, highest+1):
         print(f"{x} fits")
 
 

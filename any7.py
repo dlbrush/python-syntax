@@ -2,7 +2,7 @@ def any7(nums):
     """Are any of these numbers a 7? (True/False)"""
 
     # YOUR CODE HERE 
-    if nums.__contains__(7):
+    if 7 in nums:
         return True
     return False
 
